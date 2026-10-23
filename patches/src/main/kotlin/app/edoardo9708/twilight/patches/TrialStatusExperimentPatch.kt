@@ -41,7 +41,7 @@ val trialStatusExperimentPatch = bytecodePatch(
             """
                 const-string v0, "TW-isTrial=true"
                 invoke-static {v0, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-                const/4 v0, 0x1
+                const/4 v0, 0x0
                 return v0
             """.trimIndent()
         )
