@@ -1,3 +1,13 @@
+## [1.0.0-dev.3](https://github.com/Edoardo9708/Twilight-Morphe-Patches/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2026-10-23)
+
+### 🐛 Bug Fixes
+
+* align trial patch description with current return value ([be27343](https://github.com/Edoardo9708/Twilight-Morphe-Patches/commit/be2734306eb6b0b3b3e5cbf5fec6c53ebdc10e08))
+
+### ✨ New Features
+
+* log Twilight isTrial return value in Logcat ([2afedee](https://github.com/Edoardo9708/Twilight-Morphe-Patches/commit/2afedeec3bbecac3ab5314a2c2e9d870d5a8e795))
+
 ## [1.0.0-dev.2](https://github.com/Edoardo9708/Twilight-Morphe-Patches/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-10-23)
 
 ### 🐛 Bug Fixes

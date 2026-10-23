@@ -9,7 +9,7 @@ Patch sperimentali per **Twilight** (`com.urbandroid.lux`) usando Morphe.
 ## Patch disponibili
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0-dev.2](https://github.com/Edoardo9708/Twilight-Morphe-Patches/releases/tag/v1.0.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
+> **[v1.0.0-dev.3](https://github.com/Edoardo9708/Twilight-Morphe-Patches/releases/tag/v1.0.0-dev.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
 <details open>
 <summary>📦 XYZ app&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
@@ -36,7 +36,7 @@ Patch sperimentali per **Twilight** (`com.urbandroid.lux`) usando Morphe.
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [Test stato trial](#test-stato-trial) | Fa restituire false a isTrial() per studiare i controlli dell'interfaccia (sperimentale). |  |
+| [Test stato trial](#test-stato-trial) | Fa restituire true a isTrial() e ne stampa il valore in Logcat (sperimentale). |  |
 
 </details>
 
