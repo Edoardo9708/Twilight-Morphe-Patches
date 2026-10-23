@@ -27,7 +27,7 @@ private object TrialStatusFingerprint : Fingerprint(
 @Suppress("unused")
 val trialStatusExperimentPatch = bytecodePatch(
     name = "Test stato trial",
-    description = "Fa restituire false a isTrial() per studiare i controlli dell'interfaccia (sperimentale).",
+    description = "Fa restituire true a isTrial() e ne stampa il valore in Logcat (sperimentale).",
     default = false
 ) {
     compatibleWith(TWILIGHT)
