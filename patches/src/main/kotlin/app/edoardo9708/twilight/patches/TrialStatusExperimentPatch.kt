@@ -33,9 +33,14 @@ val trialStatusExperimentPatch = bytecodePatch(
     compatibleWith(TWILIGHT)
 
     execute {
+        // isTrial() dispone di un solo registro (v0 = p0 all'ingresso).
+        // Log.d richiede due stringhe: riutilizziamo v0 per tag e messaggio.
+        // Dopo la stampa rimettiamo in v0 il booleano effettivamente restituito.
         TrialStatusFingerprint.method.addInstructions(
             0,
             """
+                const-string v0, "TW-isTrial=true"
+                invoke-static {v0, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
                 const/4 v0, 0x1
                 return v0
             """.trimIndent()
