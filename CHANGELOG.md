@@ -1,3 +1,9 @@
+## [1.0.0-dev.2](https://github.com/Edoardo9708/Twilight-Morphe-Patches/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-10-23)
+
+### 🐛 Bug Fixes
+
+* changed ret val ([b4149aa](https://github.com/Edoardo9708/Twilight-Morphe-Patches/commit/b4149aa4c5b9b41d8f8154c1d0784d185e2b773d))
+
 ## 1.0.0-dev.1 (2026-10-23)
 
 ### ✨ New Features
